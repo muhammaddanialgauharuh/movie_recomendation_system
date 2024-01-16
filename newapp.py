@@ -7,10 +7,6 @@ import pandas as pd
 
 final_df = pd.read_csv("dump.csv")
 
-from sklearn.feature_extraction.text import TfidfVectorizer
-
-vectorizer = TfidfVectorizer(ngram_range=(1,2))
-tfid = vectorizer.fit_transform(final_df["clean_title"])
 
 from sklearn.metrics.pairwise import cosine_similarity
 
