@@ -1,0 +1,7 @@
+requests
+PIL
+pandas
+sklearn.feature_extraction.text
+sklearn.metrics.pairwise
+nltk.stem.porter
+nltk
